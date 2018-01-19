@@ -1,5 +1,61 @@
 
-#clock {width: 100px;
+#clockface {width: 500px;
 		height: 100px;
+		border: black 3px;
+		position: relative;
+		left: 300px;
+		bottom: 200px;
+		background-color: ivory;
 		border: solid;
-		font-size: 20px;}
+	}
+
+#clock {font-size: 55px;
+		font-family: courier, sans-serif;
+		color: firebrick;
+		text-shadow: 5px;
+		text-align: center;
+		margin: 10px;
+	}
+
+
+#wrapper {
+	width: 550px;
+	height: 350px;
+	background-color: ivory;
+	position: relative;
+	left: 10%;
+	top: 25px;
+	border: solid;
+	top-margin: 25px;
+}
+
+#header {font-family: helvetica, sans-serif;
+		font-size: 40px;
+		position: relative;
+		color: firebrick;
+		text-shadow: 5px;
+		margin-left: 10px;
+	}
+
+#box1 {	width: 280px;
+		height: 400px;
+		position: relative;
+		left: 60%;
+		bottom: 200px;
+	}
+
+#list {
+	font-family: helvetica, sans-serif;
+	font-size: 70px;
+	color: ivory;
+	text-shadow: 5px;
+}
+
+#name1 {font-family: helvetica, sans-serif;
+	font-size: 70px;
+	color: ivory;
+	text-shadow: 5px;
+	width: 20px
+	height: 20px;
+	background-color: firebrick;
+	}
