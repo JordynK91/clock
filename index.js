@@ -4,27 +4,40 @@ function time() {
 	var m = d.getMinutes();
 	var s = d.getSeconds();
 	var clock = document.getElementById('clock');
+	
+		
 	if (s < 10){
-		var sec = ("0" + s.toString())
-		} 
+		var sec = '0' + s} 
 	else {
-		var sec = (s.toString())
+		var sec = (s)
 		}
 	if (m < 10){
-		var min = ("0" + m.toString())
+		var min = ("0" + m)
 		} 
 	else {
-		var min = (m.toString())
+		var min = (m)
 		}
 	if (h < 10){
-		var hr = ("0" + h.toString())
+		var hr = ("0" + h)
 		} 
 	else {
-		var min = (h.toString())
+		var hr = (h)
 		}
-	clock.innerHTML = h.toString() + (":") + m.toString() + (":") + sec
-	}
+		var color = document.body;
+		color.style.backgroundColor = '#' + hr + min+ sec;
+	clock.innerHTML = hr + (":") + min + (":") + sec
+}
 
 
-var t = setInterval(function(){time()}, 1000)
+var t = setInterval(function()
+	{time()}, 1000)
+
+var name1 = document.getElementById('name1');
+
+name1.addEventListener("hover",cssColor)
+ 
+ function cssColor() {
+ 	css.style.display = "none"
+ 	}
+
 
