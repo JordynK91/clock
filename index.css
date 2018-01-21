@@ -1,9 +1,8 @@
 
 #clockface {width: 500px;
 		height: 100px;
-		border: black 3px;
 		position: relative;
-		left: 350px;
+		left: 50px;
 		bottom: 200px;
 		background-color: ivory;
 		border: solid;
@@ -34,7 +33,7 @@
 		position: relative;
 		color: firebrick;
 		text-shadow: 5px;
-		margin-5eft: 10px;
+		margin-left: 10px;
 	}
 
 #box1 {	width: 280px;
@@ -91,6 +90,42 @@
 	}
 
 #name3:hover {background-color: firebrick;}
+
+#ampm { width: 120px;
+		height: 100px;
+		border: black 3px;
+		position: relative;
+		bottom: 340px;
+		left: 600px;
+		background-color: ivory;
+		border: solid;
+		}
+
+
+#am {width: 30px;
+	height: 30px;
+	font-size: 20px;
+	margin: 0 auto;
+	font-size: 55px;
+	font-family: courier, sans-serif;
+	color: firebrick;
+	text-shadow: 5px;
+	position: relative;
+	right: 17px;
+	}
+
+#pm {width: 30px;
+	height: 30px;
+	font-size: 20px;
+	margin: 0 auto;
+	font-size: 55px;
+	font-family: courier, sans-serif;
+	color: firebrick;
+	text-shadow: 5px;
+	position: relative;
+	right: 17px;
+
+	}
 
 
 

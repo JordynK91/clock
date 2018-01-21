@@ -20,13 +20,28 @@ function time() {
 	if (h < 10){
 		var hr = ("0" + h)
 		} 
+	else if (h > 12){
+		var hr = ("0")+(h-12)
+	}
 	else {
 		var hr = (h)
 		}
+	if (h > 12){
+		var am = document.getElementById('am')
+		am.style.display = 'none'
+		}
+	else {
+		var pm = document.getElementById('pm')
+		pm.style.diplay = 'none'
+		}
+
 		var color = document.body;
 		color.style.backgroundColor = '#' + hr + min+ sec;
 	clock.innerHTML = hr + (":") + min + (":") + sec
 }
+
+
+
 
 
 var t = setInterval(function()
