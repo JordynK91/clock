@@ -32,12 +32,4 @@ function time() {
 var t = setInterval(function()
 	{time()}, 1000)
 
-var name1 = document.getElementById('name1');
-
-name1.addEventListener("hover",cssColor)
- 
- function cssColor() {
- 	css.style.display = "none"
- 	}
-
 
