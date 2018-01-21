@@ -3,7 +3,7 @@
 		height: 100px;
 		border: black 3px;
 		position: relative;
-		left: 300px;
+		left: 350px;
 		bottom: 200px;
 		background-color: ivory;
 		border: solid;
@@ -34,14 +34,14 @@
 		position: relative;
 		color: firebrick;
 		text-shadow: 5px;
-		margin-left: 10px;
+		margin-5eft: 10px;
 	}
 
 #box1 {	width: 280px;
-		height: 400px;
+		height: 300px;
 		position: relative;
-		left: 60%;
-		bottom: 200px;
+		left: 66%;
+		bottom: 320px;
 	}
 
 #list {
@@ -51,11 +51,50 @@
 	text-shadow: 5px;
 }
 
-#name1 {font-family: helvetica, sans-serif;
-	font-size: 70px;
+#title {
+	font-family: helvetica, sans-serif;
+	font-size: 100px;
 	color: ivory;
 	text-shadow: 5px;
-	width: 20px
-	height: 20px;
-	background-color: firebrick;
+}
+
+
+#name1 {font-family: helvetica, sans-serif;
+	font-size: 90px;
+	color: ivory;
+	text-shadow: 5px;
+	width: 350px;
+	height: 100px;
+	margin: 2px;
 	}
+
+#name1:hover {background-color: firebrick;}
+
+#name2 {font-family: helvetica, sans-serif;
+	font-size: 90px;
+	color: ivory;
+	text-shadow: 5px;
+	width: 350px;
+	height: 100px;
+	margin: 2px;
+	}
+
+#name2:hover {background-color: firebrick;}
+
+#name3 {font-family: helvetica, sans-serif;
+	font-size: 90px;
+	color: ivory;
+	text-shadow: 5px;
+	width: 430px;
+	height: 100px;
+	margin: 2px;
+	}
+
+#name3:hover {background-color: firebrick;}
+
+
+
+
+
+
+
