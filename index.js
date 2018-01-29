@@ -20,7 +20,7 @@ function time() {
 	if (h < 10){
 		var hr = ("0" + h)
 		} 
-	else if (h > 12){
+	else if (h > 12 && h < 22){
 		var hr = ("0")+(h-12)
 	}
 	else {
