@@ -17,15 +17,23 @@ function time() {
 	else {
 		var min = (m)
 		}
+
 	if (h < 10){
 		var hr = ("0" + h)
 		} 
+
 	else if (h > 12 && h < 22){
 		var hr = ("0")+(h-12)
 	}
+
+	else if (h >= 22){
+		var hr = (h-12)
+	}
+
 	else {
 		var hr = (h)
 		}
+
 	if (h > 12){
 		var am = document.getElementById('am')
 		am.style.display = 'none'
